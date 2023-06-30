@@ -1,0 +1,9 @@
+../X-CUBE-AI/App/sine_model.c:361:9:sine_model_configure_activations	24	static
+../X-CUBE-AI/App/sine_model.c:392:9:sine_model_configure_weights	24	static
+../X-CUBE-AI/App/sine_model.c:431:9:ai_sine_model_get_info	136	static
+../X-CUBE-AI/App/sine_model.c:478:10:ai_sine_model_get_error	16	static
+../X-CUBE-AI/App/sine_model.c:484:10:ai_sine_model_create	24	static
+../X-CUBE-AI/App/sine_model.c:494:11:ai_sine_model_destroy	16	static
+../X-CUBE-AI/App/sine_model.c:500:9:ai_sine_model_init	24	static
+../X-CUBE-AI/App/sine_model.c:517:8:ai_sine_model_run	24	static
+../X-CUBE-AI/App/sine_model.c:524:8:ai_sine_model_forward	16	static

@@ -1,0 +1,14 @@
+../Drivers/Src/uart_driver.c:10:6:USART_SetBaudRate	40	static
+../Drivers/Src/uart_driver.c:59:6:USART_Init	24	static
+../Drivers/Src/uart_driver.c:140:6:USART_PeripheralControl	16	static
+../Drivers/Src/uart_driver.c:148:6:USART_PeriClockControl	16	static
+../Drivers/Src/uart_driver.c:165:9:USART_GetFlagStatus	16	static
+../Drivers/Src/uart_driver.c:172:6:USART_SendData	32	static
+../Drivers/Src/uart_driver.c:208:6:USART_ReceiveData	32	static
+../Drivers/Src/uart_driver.c:255:9:USART_SendDataIT	32	static
+../Drivers/Src/uart_driver.c:273:9:USART_ReceiveDataIT	32	static
+../Drivers/Src/uart_driver.c:289:6:USART_ClearFlag	16	static
+../Drivers/Src/uart_driver.c:293:6:USART_IRQInterruptConfig	16	static
+../Drivers/Src/uart_driver.c:321:6:USART_IRQPriorityConfig	24	static
+../Drivers/Src/uart_driver.c:330:6:USART_IRQHandling	32	static
+../Drivers/Src/uart_driver.c:598:13:USART_ApplicationEventCallback	16	static

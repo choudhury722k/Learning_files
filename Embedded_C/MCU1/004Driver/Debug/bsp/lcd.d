@@ -1,0 +1,16 @@
+bsp/lcd.o: ../bsp/lcd.c ../bsp/lcd.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/F446RE.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/gpio_driver.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/F446RE.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/spi_driver.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/i2c_driver.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/rcc_driver.h \
+ D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/uart_driver.h
+../bsp/lcd.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/F446RE.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/gpio_driver.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/F446RE.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/spi_driver.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/i2c_driver.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/rcc_driver.h:
+D:/Important/Embedded-C/MCU1/004Driver/Drivers/Inc/uart_driver.h:
