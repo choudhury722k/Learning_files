@@ -1,5 +1,0 @@
-{
-    "nrf-connect.applications": [
-        "${workspaceFolder}\\fund_less1_exer2"
-    ]
-}
