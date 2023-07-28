@@ -61,8 +61,8 @@ all: main-build
 main-build: Fire_NUCLEO_L432KC.elf secondary-outputs
 
 # Tool invocations
-Fire_NUCLEO_L432KC.elf Fire_NUCLEO_L432KC.map: $(OBJS) $(USER_OBJS) D:\Important\Embedded-C\STM-AI\Fire_NUCLEO_L432KC\STM32L432KCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Fire_NUCLEO_L432KC.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Important\Embedded-C\STM-AI\Fire_NUCLEO_L432KC\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Fire_NUCLEO_L432KC.map" -Wl,--gc-sections -static -L../Middlewares/ST/AI/Lib -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Fire_NUCLEO_L432KC.elf Fire_NUCLEO_L432KC.map: $(OBJS) $(USER_OBJS) D:\Important\Learning_files\Embedded_C\STM\STM-AI\Fire_NUCLEO_L432KC\STM32L432KCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Fire_NUCLEO_L432KC.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Important\Learning_files\Embedded_C\STM\STM-AI\Fire_NUCLEO_L432KC\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Fire_NUCLEO_L432KC.map" -Wl,--gc-sections -static -L../Middlewares/ST/AI/Lib -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
