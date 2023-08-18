@@ -1,6 +1,6 @@
 # Learning_files
 <h2 align="center">
-        <samp>&gt; Hello Developers, This repo consists of all the learning files for understanding of AI, ML, Embedded C etc which i had gone throught my Embedded ML journey. 
+        <samp>Hello Developers, This repo consists of all the learning files for understanding of AI, ML, Embedded C etc which i had gone throught my Embedded ML journey. 
         </samp>
                 
         
